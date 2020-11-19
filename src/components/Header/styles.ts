@@ -9,6 +9,12 @@ export const Container = styled.View`
   justify-content: space-between;
 `;
 
+export const Avatar = styled.TouchableOpacity`
+  background: ${colors.tag};
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+`;
 export const OnlineStatus = styled.View`
   background: ${colors.green};
 
@@ -22,12 +28,6 @@ export const OnlineStatus = styled.View`
   bottom: 0;
 `;
 
-export const Avatar = styled.TouchableOpacity`
-  background: ${colors.tag};
-  width: 32px;
-  height: 32px;
-  border-radius: 16px;
-`;
 
 export const RightSide = styled.View`
   flex-direction: row;

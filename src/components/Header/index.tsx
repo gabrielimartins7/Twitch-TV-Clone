@@ -34,7 +34,8 @@ const Header: React.FC = () => {
         </Button>
 
         <Button>
-          <Feather name="search" size={26} color={colors.black} />
+          <Feather
+            name="search" size={26} color={colors.black} />
         </Button>
       </RightSide>
     </Container>
